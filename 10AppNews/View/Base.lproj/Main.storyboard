@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--News App-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="_0AppNews" customModuleProvider="target" sceneMemberID="viewController">
@@ -30,8 +30,9 @@
                             <constraint firstItem="Hbf-LN-C6m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yMH-E7-RBW"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="eM0-1v-gpw"/>
+                    <navigationItem key="navigationItem" title="News App" id="eM0-1v-gpw"/>
                     <connections>
+                        <outlet property="prototypeTable" destination="Hbf-LN-C6m" id="ZgY-Og-h19"/>
                         <segue destination="UVY-cf-Rot" kind="show" identifier="segueDetalles" id="Ec4-cX-c02"/>
                     </connections>
                 </viewController>
