@@ -21,15 +21,15 @@
                         <rect key="frame" x="10" y="10" width="413" height="185"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="prueba" translatesAutoresizingMaskIntoConstraints="NO" id="yZ4-tp-2hI">
-                                <rect key="frame" x="0.0" y="0.0" width="190.5" height="170"/>
+                                <rect key="frame" x="0.0" y="0.0" width="158.5" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="170" id="oC0-Lh-1RS"/>
-                                    <constraint firstAttribute="width" constant="190.5" id="xOo-RQ-TOM"/>
+                                    <constraint firstAttribute="height" constant="150" id="oC0-Lh-1RS"/>
+                                    <constraint firstAttribute="width" constant="158.5" id="xOo-RQ-TOM"/>
                                 </constraints>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KRn-xL-yd5">
-                                <rect key="frame" x="200.5" y="0.0" width="212.5" height="170"/>
+                                <rect key="frame" x="168.5" y="0.0" width="244.5" height="150"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SWj-1W-bYB">
                                         <rect key="frame" x="0.0" y="0.0" width="57.5" height="38.5"/>
@@ -49,10 +49,10 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="J2u-je-xlK">
-                                        <rect key="frame" x="0.0" y="43.5" width="196" height="126.5"/>
+                                        <rect key="frame" x="0.0" y="43.5" width="196" height="106.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Autor" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWF-BB-5rQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="110.5" height="126.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="110.5" height="106.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="110.5" id="ySK-tG-ugH"/>
                                                 </constraints>
@@ -61,7 +61,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Fecha" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdA-BQ-nfg">
-                                                <rect key="frame" x="125.5" y="0.0" width="70.5" height="126.5"/>
+                                                <rect key="frame" x="125.5" y="0.0" width="70.5" height="106.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="70.5" id="IZD-Lb-v3O"/>
                                                 </constraints>

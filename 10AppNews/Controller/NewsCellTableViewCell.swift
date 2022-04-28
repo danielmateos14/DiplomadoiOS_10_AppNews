@@ -9,12 +9,12 @@ import UIKit
 
 class NewsCellTableViewCell: UITableViewCell {
 
+//    Variables graficas
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var labelDescription: UILabel!
     @IBOutlet weak var labelAuthor: UILabel!
     @IBOutlet weak var labelDate: UILabel!
     @IBOutlet weak var ivImage: UIImageView!
-    
     
     
     override func awakeFromNib() {
@@ -25,7 +25,7 @@ class NewsCellTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+//        Esquinas redondas para la imagen
         ivImage.layer.cornerRadius = 15
     }
     
